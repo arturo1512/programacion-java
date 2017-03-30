@@ -1,0 +1,38 @@
+import java.util.*;
+public class MenuDeFechas{
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+public static void main (String args[]){
+   String leeropcion;
+   int day;
+   int mes;
+   int year;
+
+   System.out.println("Introduce fecha: ");
+        System.out.print("dia: ");
+        
+        System.out.print("mes: ");
+        
+        System.out.print("año: ");
+        
+
+
+
+try {
+         System.out.println("Dame dia:");
+
+         leeropcion= br.readLine();
+          day=Integer.valueOf(day).intValue();
+
+        }
+        catch (IOException e){
+         System.out.println(e);              
+         return;
+
+
+
+}
+
+
+
+}

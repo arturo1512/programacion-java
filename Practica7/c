@@ -1,0 +1,13 @@
+
+public class cuentaOperaciones{
+	
+  public int saldoinicial;
+  public int saldofinal;
+  public int deposito;
+
+
+
+
+
+
+}
